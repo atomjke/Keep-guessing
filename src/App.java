@@ -19,6 +19,8 @@ public class App {
             inputValue = input.nextInt();
         }
 
+        input.close();
+
         if (inputValue == randomizedValue) {
             System.out.println("That's right! You're a good guesser.");
         }
